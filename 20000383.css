@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100px;
+    display:grid;
+    place-items: center;
+    background-color: rgb(223, 174, 200);
+}
+
+button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(117, 233, 71);
+    color:black;
+    font-weight: bold;
+    width: 110px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 2px black solid;
+}
+
+#firstPlayer-el{
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 50px;
+    background-color:rgb(33, 113, 81);
+    width: 150px;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+#secondPlayer-el{
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    font-size: 50px;
+    background-color:rgb(30, 222, 145);
+    width: 150px;
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+#dicesRow{
+    background-color:rgb(193, 218, 147);
+    width: 400px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 2px  black solid;
+}
+
+#firstWin-el{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+#secondWin-el{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+img{
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#trophy1-el{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:130px;
+    height:100px;
+    margin-right: 100px;
+}
+
+#trophy2-el{
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:130px;
+    height:100px;
+    margin-left: 100px;
+}
+
+#dice01{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#dice001{
+    width: 120px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#player1-el{
+    text-align: center;
+}
+
+#player2-el{
+    text-align: center;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}

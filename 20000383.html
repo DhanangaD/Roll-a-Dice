@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLL A DICE</title>
+    <link rel="stylesheet" href="20000383.css">
+</head>
+<body>
+    <div class="row" id="dicesRow">
+        <div class="coloumn">
+            <img src="dice_1.png" id= "dice01" alt="player 01 image">
+        </div>
+        <div class="coloumn">
+            <img src="dice_1.png" id= "dice001" alt="player 01 image">
+        </div>
+    </div>
+    <button id="button-el" onclick="rollDice()" onclick="changeImage()">ROLL</button>
+    
+    <div class="row">
+        <div class="coloumn">
+            <h2 id="firstWin-el"></h2>
+            <audio src=" " type="audio/wav" id="winSound-el"></audio>
+            <img src="player01.jpg" alt="player 01 image">
+            <h4 id="player1-el">Player I</h5>
+        </div>
+        <div class="coloumn">
+            <img src=" " id= "trophy1-el">
+            <h1 id="firstPlayer-el">0</h1>
+        </div>
+        <div class="coloumn">
+            <img src=" " id= "trophy2-el">
+            <h1 id="secondPlayer-el">0</h1>
+        </div>
+        <div class="coloumn">
+            <h2 id="secondWin-el"></h2>
+            <audio src=" " type="audio/wav" id="winSound-el"></audio>
+            <img src="player02.jpg" alt="player 02 image">
+            <h4 id="player2-el">Player II</h5>
+        </div>
+    </div>
+    <script type="text/javascript" src="20000383.js"></script>
+</body>
+</html>
